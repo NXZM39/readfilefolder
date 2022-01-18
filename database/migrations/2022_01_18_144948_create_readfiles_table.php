@@ -38,6 +38,7 @@ class CreateReadfilesTable extends Migration
             $table->string('submission_time_notice_1601976166415');
             $table->string('submit_1561348107244');
             $table->unsignedInteger('form_id');
+            $table->string('file_name');
             $table->timestamps();
 
         });
